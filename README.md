@@ -1,5 +1,5 @@
 <p align="center">
-   <img src="./src/assets/images/KSlogo.svg" alt="KistVictor" width="200"/>
+   <img src="./src/assets/images/KVlogo.svg" alt="KistVictor" width="200"/>
 </p>
 
 <p align="center">

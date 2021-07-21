@@ -6,7 +6,7 @@ export default function FrontPage () {
         <section>
             <h1>Front End Developer</h1>
             <p>I create and style responsive pages, and I love it</p>
-            <img src={KScomputer} alt="kist on computer"></img>
+            <img src={KScomputer} alt="kist on computer" />
         </section>
     )
 }

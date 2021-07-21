@@ -1,3 +1,79 @@
-navBar {
-    
+@media (min-width: 640px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 1280px) {
+    header {
+        position: fixed;
+        width: 100%;
+        height: 5rem;
+        background-color: #F5F5F5;
+
+        div {
+            position: relative;
+            width: 1280px;
+            margin: 0 auto;
+            padding: 16px 40px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            img {
+                height: 80%;
+            }
+        }
+
+        hr {
+            position: absolute;
+            bottom: -1px;
+            right: 0px;
+            left: 0px;
+            width: 1280px;
+            height: 1px;
+            background-color: #4D4DFF;
+            border: 0;
+        }
+    }
+
+    .navBar {
+        ul {
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            gap: 4rem;
+
+            li {
+                font-size: 24px;
+
+                a {
+                    text-decoration: none;
+                    color: #4D4DFF;
+                }
+            }
+        }
+    }
+
+
+}
+
+
+
+@media (min-width: 1536px) {
+    header {
+        div {
+            width: 1536px;
+        }
+        hr {
+            width: 1536px;
+        }
+    }
 }

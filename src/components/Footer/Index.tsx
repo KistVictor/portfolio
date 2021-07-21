@@ -1,3 +1,6 @@
+import linkedin from "../../assets/images/linkedin.svg"
+import instagram from "../../assets/images/instagram.svg"
+import github from "../../assets/images/github.svg"
 
 export default function FrontPage () {
 
@@ -14,9 +17,9 @@ export default function FrontPage () {
             </div>
 
             <div>
-                <img alt="LinkedIn icon"></img>
-                <img alt="instagram icon"></img>
-                <img alt="GitHub icon"></img>
+                <img src={linkedin} alt="LinkedIn icon" />
+                <img src={instagram} alt="instagram icon" />
+                <img src={github} alt="GitHub icon" />
             </div>
 
             <img alt="kist's logo"></img>

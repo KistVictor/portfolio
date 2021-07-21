@@ -1,8 +1,11 @@
+import studing from "../../assets/images/studing.svg"
+import developing from "../../assets/images/developing.svg"
+import graduating from "../../assets/images/graduating.svg"
 
 export default function Informations () {
 
     return (
-        <section>
+        <section id="about">
 
             
             <h2>Hi, i'm Victor, Nice to meet you.</h2>
@@ -22,7 +25,7 @@ export default function Informations () {
                     <h4>Platforms</h4>
                     <p>Alura<br/>
                     Rocketseat</p>
-                    <img alt="Studing"></img>
+                    <img src={studing} alt="Studing" />
                 </li>
 
                 <li>
@@ -32,7 +35,7 @@ export default function Informations () {
                     <p>HTML5, CSS3, JavaScript, ReactJS</p>
                     <h4>Dev tools</h4>
                     <p>Tailwind, AMP, Gatsby, NextJS, Figma, ClickUP</p>
-                    <img alt="Developing"></img>
+                    <img src={developing} alt="Developing" />
                 </li>
 
                 <li>
@@ -49,7 +52,7 @@ export default function Informations () {
                         Logic
                         Entrepreneurship
                     </p>
-                    <img alt="Graduating"></img>
+                    <img src={graduating} alt="Graduating" />
                 </li>
             </ul>
 

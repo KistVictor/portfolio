@@ -37,7 +37,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 ---
 
 <p align="center">Made with 💻 by <a href="https://github.com/kistvictor">Victor Kist</a> <br><br>
-<a href="https://www.linkedin.com/in/victor-kist/">
+<a href="https://www.linkedin.com/in/kistvictor/">
   <img alt="Linkedin Badge" src="https://img.shields.io/badge/-Victor_Kist-blue?style=flat-square&logo=Linkedin&logoColor=white">
 </a>
 </p>

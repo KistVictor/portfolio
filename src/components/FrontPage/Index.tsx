@@ -1,3 +1,5 @@
+import "./styles.scss"
+
 import KScomputer from '../../assets/images/computer.svg'
 
 export default function FrontPage () {

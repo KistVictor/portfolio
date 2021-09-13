@@ -1,19 +1,96 @@
-@media (min-width: 640px) {
-
+footer{
+  background-color: #0000FF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  margin-top: 150px;
+  padding-bottom: 40px;
 }
 
-@media (min-width: 768px) {
+.contactContainer {
+  width: 1270px;
+  height: 200px;
+  background-color: #313131;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: -60px;
 
+  h2 {
+    font-weight: normal;
+    font-size: 48px;
+    font-weight: 400;
+    color: #F5F5F5;
+  }
+
+  p {
+    color: #F5F5F5;
+    text-align: center;
+    font-size: 24px;
+  }
+
+  div {
+    width: 241px;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #4D4DFF;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 49px;
+    transition: 0.3s;
+
+    a {
+      color: #F5F5F5;
+      font-weight: normal;
+      text-decoration: none;
+      font-size: 36px;
+    }
+  }
+
+  div:hover {
+    background-color: #4D4DFF;
+  }
 }
 
-@media (min-width: 1024px) {
+.socialContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
 
+  div {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #4D4DFF;
+    box-sizing: border-box;
+    border-radius: 90px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transition: 0.3s;
+  
+    img {
+      width: 20px;
+      height: 20px;
+      filter: invert(100%) sepia(12%) saturate(4%) hue-rotate(292deg) brightness(112%) contrast(92%);
+    }
+  }
+
+  div:hover {
+    border: 2px solid #FFFFFF;
+    background-color: #FFFFFF;
+  }
+
+  div:hover img {
+    filter: invert(7%) sepia(100%) saturate(7148%) hue-rotate(248deg) brightness(107%) contrast(144%);
+  }
+  
 }
-
-@media (min-width: 1280px) {
-
-}
-
-@media (min-width: 1536px) {
-
+.KSlogo {
+  filter: invert(100%) sepia(12%) saturate(4%) hue-rotate(292deg) brightness(112%) contrast(92%);
 }

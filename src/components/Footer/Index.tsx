@@ -20,9 +20,9 @@ export default function FrontPage () {
             </div>
 
             <div className="socialContainer">
-                <div><img src={linkedin} alt="LinkedIn icon" /></div>
-                <div><img src={instagram} alt="instagram icon" /></div>
-                <div><img src={github} alt="GitHub icon" /></div>
+                <a href="https://www.linkedin.com/in/kistvictor/"><div><img src={linkedin} alt="LinkedIn icon" /></div></a>
+                <a href="https://www.instagram.com/kistvictor_/"><div><img src={instagram} alt="instagram icon" /></div></a>
+                <a href="https://github.com/KistVictor"><div><img src={github} alt="GitHub icon" /></div></a>
             </div>
 
             <img src={KSlogo} alt="kist's logo" className="KSlogo"></img>
